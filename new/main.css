@@ -1,0 +1,110 @@
+body{
+    background-color: azure;
+    color: rgb(32, 37, 41);
+}
+body ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    color: rgb(32, 37, 41);
+    text-decoration: none;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+
+}
+/*basket related */
+
+.hope-on{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+}
+
+.my-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border: 1px solid slategrey;
+    
+    border-radius: .25rem;
+    padding: .25rem;
+    margin-bottom: 1rem;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btns a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border: 3px solid slateblue;
+    border-radius: .25rem;
+}
+.my-item .small-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.my-item .small-img img{
+    height: auto;
+    width: 2rem;
+    margin-right: .75rem;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.actions input{
+    width: 2.5rem;
+    height: 1.5rem;
+}
+.actions i{
+    font-size: 1.5rem;
+    color: red;
+    cursor: pointer;
+}
+
+/* payments */
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.card-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ins{
+    margin-bottom: 1.5rem;
+}
+.content{
+    border: 2px solid slategrey;
+    padding: .5rem;
+}
+.local a{
+    background-color: rgb(255, 255, 255);
+}
