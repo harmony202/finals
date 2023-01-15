@@ -419,3 +419,6 @@ nav p{
     gap: 1rem;
     font-size: 1rem;
 }
+img{
+    border-radius: .5rem;
+}
