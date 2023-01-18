@@ -422,3 +422,93 @@ nav p{
 img{
     border-radius: .5rem;
 }
+
+
+/* home page code */
+
+.all-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.values{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.values .parts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+}
+.parts ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style: disc;
+    padding: .5rem;
+}
+.this-footer{
+    background-color: #333;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.this-footer a{
+    color: antiquewhite;
+}
+/* contact page */
+
+.cta-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+}
+.cta-socials a i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem;
+    border: 2px solid red;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.cta-form form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.cta-form form label, input{
+    margin-bottom: 1rem;
+}
+.cta-form input{
+    margin-bottom: .25rem;
+}
+.cta-form form button{
+    display: flex;
+    padding: .75rem;
+    background-color: #777;
+    border-radius: .5rem;
+    color: antiquewhite;
+    font-size: 1rem;
+    margin: .75rem;
+    cursor: pointer;
+    border: none;
+}
